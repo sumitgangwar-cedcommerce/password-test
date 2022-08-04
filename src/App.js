@@ -17,7 +17,7 @@ function App() {
     str+=letters[(Math.random(0-25)*10).toFixed(0)]===undefined ? 'Abq' : (letters[(Math.random(0-25)*10).toFixed(0)]).toUpperCase();
     str+=letters[(Math.random(0-25)*10).toFixed(0)]===undefined ? 'Aasd' : (letters[(Math.random(0-25)*10).toFixed(0)]).toLowerCase();
     str+=((Math.random(1,2)*1000).toFixed(0));
-    str+=((Math.random(1,2)*1).toFixed(0))===0 ? '@11a@' : '11@1'
+    str+=((Math.random()*10).toFixed(0))>5 ? '@11a@' : '11@1'
     str+=letters[(Math.random(0-25)*10).toFixed(0)]===undefined ? 'Aa' : (letters[(Math.random(0-25)*10).toFixed(0)]).toUpperCase();
     str+=((Math.random(1,100)*1000).toFixed(0)).toString();
     str+=letters[(Math.random(0-25)*10).toFixed(0)]===undefined ? 'Aqa' : (letters[(Math.random(0-25)*10).toFixed(0)]).toLowerCase();
