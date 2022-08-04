@@ -16,7 +16,7 @@ function App() {
       let ind = Math.floor(Math.random()*100)%63
       str+=temp[ind]
     }
-    console.log(str)  
+    setPassword(str) 
   }
   const copyPassword = (e)=>{
     if(password!=='')alert(`Success copied  ${password}`)
